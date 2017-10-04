@@ -54,6 +54,8 @@ def play(board)
 
     if !over?(board)
       turn(board)
+    elsif draw?(board)
+      puts "Cat's Game!"
     end
     counter+=1
   end
