@@ -51,8 +51,8 @@ end
 def play(board)
   counter=0
   while(counter<9) do
-    over?(board)
     turn(board)
+    over?(board)
     counter+=1
   end
 end
